@@ -27,7 +27,7 @@ class ScapegoatTree {
   public:
     /**
      * Constructs a new, empty scapegoat tree with the provided alpha value.
-     * Throws std::invalid_argument if alpha is not within [0.5, 1).
+     * Throws std::invalid_argument if alpha is not within (0.5, 1).
      * 
      * Time complexity: O(1)
      */
